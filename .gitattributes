@@ -1,0 +1,9 @@
+# Force GitHub to recognize Dart as the main language
+*.dart linguist-language=Dart
+
+# Exclude native platform code from language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
